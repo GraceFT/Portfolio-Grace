@@ -1,18 +1,23 @@
 /******+++++++++++++++++++++++VARIABLES***++++++++++++++++++***/
-
+$absolute:absolute;
+$table:table;
+$table-cell:table-cell;
+$margin-titles: 100px 0; 
 /******+++++++++++++++++++++++GENERAL***++++++++++++++++++***/
 *{
     outline: 1px solid rgba(0,255,0,0.3);
+    font-family: "Montserrat";
 }
 header{
     position: relative;
     z-index: 100;
+    margin: 50px 0;
 }
 /******+++++++++++++++++++++++STRUCTURE***++++++++++++++++++***/
 section{
     background: #000;
     /*background: rgba(0,0,0,0.3);*/
-    position: absolute;
+    position: $absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -22,32 +27,51 @@ section{
     color: #fff;
 }
 .visible{
-    display: table;
+    display: $table;
     opacity: 1;
 }
-.content{
-    display: table-cell;
+.content, .middle-structure-info{
+    display: $table-cell;
     vertical-align: middle;
-    background: rgba(0,0,0,0.1);
 }
 .middle-structure{
     background-color: #f00;
     width: 50%;
     height: 100%;
-    position: absolute;
+    position: $absolute;
     top: 0;
     left: 0;
-    display: table;
+    display: $table;
+    padding: 30px;
 }
-.lainfo-red{
-    display: table-cell;
-    vertical-align: middle;
+.-about{
+    background: rgb(11,16,38);
+}
+.-skills{
+    background:  rgba(88,175,169,0.8);
+}
+.-projects{
+    background:  rgb(115,208,181);
+}
+.-about h2, .-skills h2{
+    font-family: "Abril Fatface";
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+.hor{
+    display: block;
+    width: 70px;
+    margin: 25px 0;
+}
+/******+++++++++++++++++++++++PROJECTS***++++++++++++++++++***/
+.menu-line{
+    box-sizing: border-box;
 }
 /******+++++++++++++++++++++++STYLES***++++++++++++++++++***/
 .welcome{
     background: url(../images/1rst%20demo%20city.jpeg);
 }
-hr{
+.vertical{
     width: 2px;
     background: #fff;
     box-sizing: content-box;
