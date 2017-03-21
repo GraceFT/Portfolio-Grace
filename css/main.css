@@ -1,0 +1,46 @@
+*{
+    outline: 1px solid rgba(0,255,0,0.3);
+}
+header{
+    position: relative;
+    z-index: 100;
+}
+section{
+    background: #000;
+    /*background: rgba(0,0,0,0.3);*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0;
+    color: #fff;
+}
+.visible{
+    display: table;
+    opacity: 1;
+}
+.content{
+    display: table-cell;
+    vertical-align: middle;
+    background: rgba(0,0,0,0.1);
+    
+}
+.welcome{
+    background: url(../images/1rst%20demo%20city.jpeg);
+}
+.intro-header hr{
+    width: 2px;
+    height: 150px;
+    background: #fff;
+    box-sizing: content-box;
+    margin: 0 15px;
+}
+.intro-header h1{
+    display: inline-block;
+    font-size: 45px;
+    font-family: "Alegreya", "serif";
+}
+/************info-init*************/
+    /*background:  rgb(65,205,219);*/
