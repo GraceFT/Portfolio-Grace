@@ -7,7 +7,18 @@
 header {
   position: relative;
   z-index: 100;
-  margin: 50px 0; }
+  margin: 10px 0; }
+
+.btn_press {
+  background-color: transparent;
+  border-radius: none;
+  border: 1px solid #fff;
+  padding: 12px 15px;
+  margin-left: 25px; }
+
+.btn_press:hover {
+  background-color: #fff;
+  color: rgba(69, 60, 179, 0.9); }
 
 /******+++++++++++++++++++++++STRUCTURE***++++++++++++++++++***/
 .info-projects {
@@ -44,17 +55,20 @@ section {
   padding: 0 30px; }
 
 .-about {
-  background: #0b1026; }
+  background: #453cb3; }
 
 .-skills {
-  background: rgba(88, 175, 169, 0.8); }
+  background: #453cb3; }
 
 .-projects {
-  background: #73d0b5; }
+  background: #453cb3; }
 
-.-about h2, .-skills h2 {
+.-contacts {
+  background: #453cb3; }
+
+.-about h2, .-skills h2, .-projects h2 {
   font-family: "Abril Fatface";
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 3px; }
 
 .hor {
@@ -81,16 +95,29 @@ section {
 
 .menu-navigation-number {
   width: 60px;
-  position: relative;
   margin: 0;
   padding: 0; }
 
 .menu-navigation-number li {
   padding: 30px 0; }
 
+.menu-navigation-number li:nth-child(1) {
+  margin-top: 0; }
+
 .projects li {
   padding: 30px 0; }
 
+.img-projects-github {
+  margin: 25px; }
+
+.layer img {
+  transition: box-shadow 2s, transform 250ms, filter 250ms ease-in-out; }
+
+.layer img:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6); }
+
+/******+++++++++++++++++++++++PROJECTS***++++++++++++++++++***/
 /******+++++++++++++++++++++++STYLES***++++++++++++++++++***/
 .welcome {
   background: url(../images/1rst%20demo%20city.jpeg); }
@@ -106,5 +133,11 @@ section {
   display: inline-block;
   font-size: 45px;
   font-family: "Alegreya", "serif"; }
+
+/******+++++++++++++++++++++++QUERIES***++++++++++++++++++***/
+@media screen and (max-width: 600px) {
+  .middle-structure {
+    width: 100%;
+    z-index: 3; } }
 
 /*# sourceMappingURL=main.css.map */

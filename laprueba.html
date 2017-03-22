@@ -63,11 +63,6 @@
 <section id="about_me" class="info-about-me">
 	<div class="content">
 		<div class="container-fluid">
-            <div class="row -info text-center">
-                <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
-                    LAS IMAGENES 
-                </div>    
-            </div>
             <div class="middle-structure -about">
                 <div class=" info middle-structure-info text-left">
                     <div class="col-md-12 col-xs-12 col-sm-12 pull-left">
@@ -78,6 +73,11 @@
                     </div>  
                </div>
             </div>
+            <div class="row -info text-center">
+                <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
+                    LAS IMAGENES 
+                </div>    
+            </div>
         </div>
 	</div>
 </section>
@@ -87,7 +87,7 @@
 		<div class="container-fluid">
                <div class="row text-right">
                     <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
-                        <h3>Languajes</h3>
+                        <h3 id="name">Languajes</h3>
                         <ul class="list-unstyled">
                             <li>Spanish</li>
                             <li>English</li>
@@ -112,8 +112,23 @@
 <section id="projects" class="info-projects text-center">
 	<div class="content">
 		<div class="container-fluid">
-            <div class="middle-structure -projects">
-                <!--aqui aparecen los elementos cuando hago hover--->
+            <div class="middle-structure -projects" id="projects-image">
+               <div class="middle-structure-info projects-image text-left">
+                <h2>Projects</h2>
+                <h3 id="name">User Testing 360</h3>
+                <hr class="hor">    
+                    <p>Se usaron herramientas como:</p>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>CSS</li>
+                </ul>
+                <div class="img-projects-github">
+                    <div class="layer list-inline"> 
+                        <img src="images/User2.png" alt="" class="img-responsive" id="img_pros">
+                    </div>
+                </div>
+                <button id="btn_project_user" class="btn_press">View Case</button>  
+               </div>
             </div>
             <!--la estructura de los numeros -->
             <div class="middle-structure-right ">
@@ -124,40 +139,13 @@
                        <li>03</li>
                        <li>04</li>
                    </ul>
-                   
                </div>
-                <div class="middle-structure-info">
-                    <ul class="projects list-inline list-unstyled">
-                        <li >
-                            <i class="fa fa-arrow-right"></i>
-                        </li>
-                        <li >
-                            <span>Project 1</span>
-                        </li>    
-                    </ul>
-                    <ul class="projects list-inline list-unstyled">
-                        <li >
-                            <i class="fa fa-arrow-right"></i>
-                        </li>
-                        <li >
-                            <span>Project 2</span>
-                        </li>    
-                    </ul>
-                    <ul class="projects list-inline list-unstyled">
-                        <li >
-                            <i class="fa fa-arrow-right"></i>
-                        </li>
-                        <li >
-                            <span>Project 3</span>
-                        </li>    
-                    </ul>
-                    <ul class="projects list-inline list-unstyled">
-                        <li>
-                            <i class="fa fa-arrow-right"></i>
-                        </li>
-                        <li >
-                            <span>Project 4</span>
-                        </li>    
+                <div class="middle-structure-info" id="projects">
+                    <ul class="projects list-unstyled">
+                        <li><i class="fa fa-arrow-right"></i><span>Project 1</span></li>    
+                        <li><i class="fa fa-arrow-right"></i><span>Project 2</span></li>    
+                        <li><i class="fa fa-arrow-right"></i><span>Project 3</span></li>    
+                        <li><i class="fa fa-arrow-right"></i><span>Project 4</span></li>    
                     </ul>
                 </div>   
             </div>
@@ -168,19 +156,19 @@
 <section id="contact_me" class=" info-contact-me">
 	<div class="content">
 		<div class="container-fluid">
-               <div class="info-init-body-content text-right">
-                    <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
-                        <h2>ABOUT ME</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque tenetur quos alias optio nulla eos tempore sapiente laboriosam inventore quidem cum laudantium error, facilis explicabo ab, at odio, nesciunt, voluptate.</p> 
-                    </div>  
-               </div>
-            <div class="middle-structure">
-                <div class="middle-structure-info text-left">
+            <div class="middle-structure -contacts">
+                <div class="middle-structure-info text-left ">
                     <div class="col-md-12 col-xs-12 col-sm-12 pull-left">
                         <h2>ABOUT ME</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque tenetur quos alias optio nulla eos tempore sapiente laboriosam inventore quidem cum laudantium error, facilis explicabo ab, at odio, nesciunt, voluptate.</p> 
                     </div>  
                </div>
+            </div>
+            <div class="info-init-body-content text-right">
+                <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
+                    <h2>ABOUT ME</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque tenetur quos alias optio nulla eos tempore sapiente laboriosam inventore quidem cum laudantium error, facilis explicabo ab, at odio, nesciunt, voluptate.</p> 
+                    </div>  
             </div>
 		</div>
 	</div>
@@ -192,6 +180,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/app.js"></script>     
+<script src="js/projects.js"></script>
+<script src="js/json.js"></script>     
 </body>
 </html>
 
