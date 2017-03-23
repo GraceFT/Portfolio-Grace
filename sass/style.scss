@@ -53,7 +53,7 @@ section{
     vertical-align: middle;
 }
 .middle-structure{
-    background-color: #f00;
+    background-color: rgb(69,60,179);
     width: 50%;
     height: 100%;
     position: $absolute;
@@ -62,19 +62,21 @@ section{
     display: $table;
     padding: 0 30px;
 }
-.-about{
-    background: rgb(69,60,179);
-}
-.-skills{
-    background:  rgb(69,60,179);
-}
-.-projects{
-    background:  rgb(69,60,179);
-}
-.-contacts{
-    background:  rgb(69,60,179);
-}
-.-about h2, .-skills h2, .-projects h2{
+    /***********COLORES************/
+    .-about{
+        background: rgb(69,60,179);
+    }
+    .-skills{
+        background:  rgb(69,60,179);
+    }
+    .-projects{
+        background:  rgb(69,60,179);
+    }
+    .-contacts{
+        background:  rgb(69,60,179);
+    }
+    /***********COLORES************/
+.-about h2, .-skills h2, .-projects h2, .-contact h2{
     font-family: "Abril Fatface";
     font-size: 50px;
     letter-spacing: 3px;
@@ -182,6 +184,12 @@ section{
 .layer img:hover{
     transform: scale(1.05);
     box-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+/******+++++++++++++++++++++++CONTACT***++++++++++++++++++***/
+.-contact p{
+    font-size: 20px;
+    font-family: "Abril Fatface";
+    letter-spacing: 1.5;
 }
 /******+++++++++++++++++++++++STYLES***++++++++++++++++++***/
 .welcome{
