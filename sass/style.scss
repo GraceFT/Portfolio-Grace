@@ -33,27 +33,17 @@ header{
 .info-projects{
     background: #fff;
 }
-section, .middle-structure
-{
-    background: rgba(0,0,0,0.3);
+section{
+    background: rgba(69,60,179,0.5);
     position: $absolute;
     top: 0;
     left: 0;
-    height: 100%;    
+    width: 100%;
+    height: 100%;
+    display: none;    
     opacity: 0;
     color: #fff;
 }
-/********width**********/
-section{
-    width: 100%;
-    display: none;
-}
-.middle-structure{
-    width: 50%;
-    display: $table;
-    padding: 0 30px;
-}
-
 .visible{
     display: $table;
     opacity: 1;
@@ -62,7 +52,28 @@ section{
     display: $table-cell;
     vertical-align: middle;
 }
-/**********************/
+.middle-structure{
+    background-color: #f00;
+    width: 50%;
+    height: 100%;
+    position: $absolute;
+    top: 0;
+    left: 0;
+    display: $table;
+    padding: 0 30px;
+}
+.-about{
+    background: rgb(69,60,179);
+}
+.-skills{
+    background:  rgb(69,60,179);
+}
+.-projects{
+    background:  rgb(69,60,179);
+}
+.-contacts{
+    background:  rgb(69,60,179);
+}
 .-about h2, .-skills h2, .-projects h2{
     font-family: "Abril Fatface";
     font-size: 50px;
@@ -73,17 +84,13 @@ section{
     width: 70px;
     margin: 25px 0;
 }
+
 /******+++++++++++++++++++++++ABOUT-ME***++++++++++++++++++***/
 .likes{
     width: 100px;
     height: 100px;
     line-height: 100px;
     border: 2px solid #fff;
-    transition: all .2s ease-in-out; 
-}
-.likes:hover{
-    transform: scale(1.1);
-    background: #ff0;
 }
 .likes i{
     font-size: 30px;
@@ -121,11 +128,40 @@ section{
 .-sass:hover{
     background-color: rgb(205,102,154);
 }
+.adicional_img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+}
 /******+++++++++++++++++++++++PROJECTS***++++++++++++++++++***/
-.middle-structure-projects{
-    width: 100%;
+.menu-navigation-number{
+    box-sizing: border-box;
+    background:#fff; 
+    color:#000;
+}
+.middle-structure-right{
+    background-color: #f2f2f2;
+    width: 50%;
+    height: 100%;
+    position: $absolute;
+    top: 0;
+    right: 0;
     display: $table;
-    padding: 0 30px;
+    overflow: hidden;
+    color: #000;
+}
+.menu-navigation-number{
+    width: 60px;
+    margin: 0;
+    padding: 0;
+}
+.menu-navigation-number li{
+    padding: 30px 0;
+}
+.menu-navigation-number li:nth-child(1){
+    margin-top: 0;
 }
 .projects li{
     padding: 30px 0;
@@ -161,29 +197,14 @@ section{
 .intro-header h1{
     display: inline-block;
     font-size: 45px;
+    font-family: "Alegreya", "serif";
 }
-/******+++++++++++++++++++++++CONTACT-ME***++++++++++++++++++***/
-.middle-structure-contacts{
-    width: 33.33%;
-    display: $table;
-    padding: 0 30px;
-}
-.middle-structure-right-contacts{
-    width: 33.33%;
-    display: $table;
-    padding: 0 30px;
-}
-
 /******+++++++++++++++++++++++QUERIES***++++++++++++++++++***/
 @media (max-width:767px)
 {
-    .middle-structure, .middle-structure-contacts{
+    .middle-structure{
         width: 100%;
         z-index: 3;
         padding: 30px;
-    }
-    
+    } 
 }
-
-
-
