@@ -2,64 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>laprueba</title>
+    <title>nav</title>
+    <link rel="stylesheet" href="mainss.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat" rel="stylesheet">
-   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">   
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat" rel="stylesheet">
 </head>
-<body class="">
-<header>
-    <nav class="navbar-gr navbar-inverse" role="navigation" style="border-color: transparent; color: white; background:none;">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <span><a id="btn_initial">IMAGEN<img src="" alt=""></a></span>
-            </div>
-            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a id="btn_about_me">About me</a></li>
-                    <li><a id="btn_skills">Skills</a></li>
-                    <li><a id="btn_project">Projects</a></li>
-                    <li><a id="btn_contact_me">Contact me</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-<!----------------LOADER--------------------------------------------------->
-<div class="gc-loader -hidden">
-    <div class="gr-loader-img">
-        <img src="" alt="">
-    </div>
+<body>
+<div class="container-fluid">
+    <div class="overlay-navigation">
+      <nav role="navigation">
+        <ul class="text-center list-unstyled">
+          <li><a id="btn_initial" data-content="The beginning">HOME</a></li>
+          <li><a id="btn_about_me" data-content="Curious?">ABOUT</a></li>
+          <li><a id="btn_skills" data-content="I got game">SKILLS</a></li>
+          <li><a id="btn_project" data-content="Only the finest">WORKS</a></li>
+          <li><a id="btn_contact_me" data-content="Don't hesitate">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>    
 </div>
-<!----------------LOADER------------------------------------------------->
-<div class="gc-scroller">
-    <button class="loader">loader</button>
-</div>
-<!----------------DIV CONTENT DE PAGE--------------------------------------------------->
-<section id="view-start" class="visible  welcome">
-	<div class="content">
-		<div class="container">
-            <div class="intro-header">
+<section class="home visible welcome" id="view-start">
+        <a href="http://codepen.io/fluxus/pen/gPWxXJ" target="_blank">graceee</a>
+            <div class="open-overlay">
+                <span class="bar-top"></span>
+                <span class="bar-middle"></span>
+                <span class="bar-bottom"></span>
+            </div>
+            <div class="content intro-header">
                 <hr class="pull-left vertical">
-                <h1>
-                    <span style="transform:matrix(1,0,0,1,0,0);">Grace Clavijo</span>
-                </h1>
-                <h2>
-                    <span style="transform:matrix(1,0,0,1,0,0);">Front-end Developer</span>
-                </h2>     
+                <h1><span style="transform:matrix(1,0,0,1,0,0);">Grace Clavijo</span></h1>
+                <h2><span style="transform:matrix(1,0,0,1,0,0);">Front-end Developer</span></h2>     
             </div>
-		</div>
-	</div>
-</section>
-<!----------------FIRST-ABOUT-ME--------------------------------------------------->
+                    
+</section>  
+<!----------------FIRST-ABOUT-ME------------------------------------------------>
 <section id="about_me" class="info-about-me">
 	<div class="content">
 		<div class="container-fluid">
@@ -81,11 +57,11 @@
         </div>
 	</div>
 </section>
-<!----------------FIRST-SKILLS--------------------------------------------------->
+<!----------------FIRST-SKILLS-------------------------------------------------
 <section id="skills" class=" info-skills">
 	<div class="content">
 		<div class="container-fluid">
-           <!-----------------------TOURISM----------------------------->
+           <!-----------------------TOURISM---------------------------
             <div class="row text-right">
                     <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
                         <h3 id="name">Languages</h3>
@@ -100,7 +76,7 @@
                         </ul> 
                     </div>  
             </div>
-            <!-----------------------TOURISM----------------------------->
+            <!-----------------------TOURISM---------------------------
             <div class="middle-structure -skills">
                 <div class="row middle-structure-info text-left">
                     <div class="col-md-12 col-xs-12 col-sm-12 pull-left">
@@ -137,7 +113,7 @@
 		</div>
 	</div>
 </section>
-<!----------------FIRST-PROJECTS--------------------------------------------------->
+<!----------------FIRST-PROJECTS-------------------------------------------------
 <section id="projects" class="info-projects text-center">
 	<div class="content">
 		<div class="container-fluid">
@@ -154,7 +130,7 @@
                 <button id="btn_project_user" class="btn_press">View Case</button>  
                </div>
             </div>
-            <!--la estructura de los numeros -->
+            <!--la estructura de los numeros -
             <div class="middle-structure-right ">
                <div class="menu-navigation-number middle-structure-info">
                    <ul class="list-unstyled">
@@ -176,7 +152,7 @@
 		</div>
 	</div>
 </section>
-<!----------------FIRST-CONTACT-ME--------------------------------------------------->
+<!----------------FIRST-CONTACT-ME--------------------------------------------------
 <section id="contact_me" class=" info-contact-me">
 	<div class="content">
 		<div class="container-fluid">
@@ -200,11 +176,12 @@
 <!------------------------------------SCRIPTS-------------------------------->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-3.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/app.js"></script>     
-<script src="js/projects.js"></script>
-<script src="js/json.js"></script>     
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+<script src="javas.js"></script>
 </body>
 </html>
