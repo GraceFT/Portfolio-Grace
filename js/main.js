@@ -44,10 +44,4 @@ function goToSection(_id)
     //se le va a plicar a todas las pantallas
 }
 ///+++++++++++++++++++++++++++++++++++++++ADTIONAL FUNCTIONS++++++++++++++++++++++++++++///
-   /*$('#projects ul').hover(function(){
-        $(this).addClass("hover");
-        $('#projects-image').text("holaaaa");
-    },function(){
-        $(this).removeClass("hover");
-        $('#projects-image').text(" ");
-    });*/
+

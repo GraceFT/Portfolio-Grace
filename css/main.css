@@ -1,10 +1,15 @@
 /******+++++++++++++++++++++++VARIABLES***++++++++++++++++++***/
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
-.navbar-right li a {
-  color: #ff0; }
+.navbar-gr img {
+  width: 150px;
+  height: 100px; }
 
-.navbar-right li:hover {
-  background-color: #fff;
+.nav_grace a {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: 5px;
+  padding: 0; }
+.nav_grace a:hover {
   color: #000; }
 
 /******+++++++++++++++++++++++GENERAL***++++++++++++++++++***/
@@ -13,8 +18,7 @@ body {
 
 header {
   position: relative;
-  z-index: 100;
-  margin: 10px 0; }
+  z-index: 100; }
 
 .btn_press {
   background-color: transparent;
@@ -22,10 +26,9 @@ header {
   border: 1px solid #fff;
   padding: 12px 15px;
   margin-left: 25px; }
-
-.btn_press:hover {
-  background-color: #fff;
-  color: rgba(69, 60, 179, 0.9); }
+  .btn_press .btn_press:hover {
+    background-color: #fff;
+    color: rgba(69, 60, 179, 0.9); }
 
 /******+++++++++++++++++++++++STRUCTURE***++++++++++++++++++***/
 .info-projects {
@@ -51,7 +54,7 @@ section {
   vertical-align: middle; }
 
 .middle-structure {
-  background-color: #453cb3;
+  background-color: #7280b2;
   width: 50%;
   height: 100%;
   position: absolute;
@@ -87,17 +90,14 @@ section {
 
 /******+++++++++++++++++++++++SKILLS***++++++++++++++++++***/
 .logo_programs {
-  border: 1px solid #fff;
   padding-left: 45px; }
 
-.idiomas_skills {
-  border: 1px solid #fff; }
-  .idiomas_skills img {
-    width: 50px;
-    height: 50px;
-    margin: auto; }
-  .idiomas_skills div {
-    background: rgba(69, 60, 179, 0.5); }
+.idiomas_skills img {
+  width: 50px;
+  height: 50px;
+  margin: auto; }
+.idiomas_skills div {
+  background: rgba(69, 60, 179, 0.5); }
 
 .img_logo_skills, .idiomas_skills div {
   width: 110px;
@@ -125,6 +125,10 @@ section {
   background-color: #cd669a; }
 
 /******+++++++++++++++++++++++PROJECTS***++++++++++++++++++***/
+.display {
+  opacity: 1;
+  display: table; }
+
 .menu-navigation-number {
   box-sizing: border-box;
   background: #fff;
