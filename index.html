@@ -13,7 +13,7 @@
 <body class="elbody">
 <!-------------------EL HEADER----------------------------------------->
 <header>
-    <nav class="navbar-gr navbar-inverse" role="navigation" style="border-color: transparent; background:none;">
+    <nav class="navbar-gr navbar-inverse" role="navigation" style="border-color: transparent; color: white; background:none;">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -36,7 +36,7 @@
         </div>
     </nav>
 </header>
-<!----------------menu--------------------------------------------------->
+<!----------------HOME--------------------------------------------------->
 <section id="welcome view-start" class="visible  welcome">
 	<div class="content">
 		<div class="container-fluid">
@@ -52,34 +52,36 @@
 		</div>
 	</div>
 </section>
-<!----------------FORM-PLAYERS------ ------------------------------------------->
+<!----------------ABOUT-ME------ ------------------------------------------->
 <section id="about_me" class="info-about-me">
 	<div class="content">
 		<div class="container-fluid">
-            <div class="middle-structure -about">
+            <div class="middle-structure about-me">
                 <div class=" row info middle-structure-info text-left">
                     <div class="col-md-12 col-xs-12 col-sm-12 pull-left">
-                    <h2 class="animated fadeInLeft">About Me</h2>
+                    <h2 class="animated fadeInLeft"> Sobre  Mí</h2>
                     <hr class="hor animated fadeInRight">    
                     <p class="animated fadeInLeft">Mi pasión por la tecnología, el diseño y los videojuegos hizo que llegara a LABORATORIA para formarme como desarrolladora y programadora web. </p>
-                    <p class="animated fadeInLeft">Tambien me apasiona la naturaleza, los viajes y el poder difundir la cultura que caracteriza a cada región, por ello estudie la carrera de Turismo y Hoteleria en la UNSA y estudie varios idiomas</p>
+                    <p class="animated fadeInLeft">Tambien me apasiona la naturaleza, los viajes, los idiomas y el poder difundir la cultura que caracteriza a cada región, por ello estudie la carrera de Turismo y Hoteleria.</p>
+                    <!------------LIKES------------->    
                     <div class="text-center likes_about_me">
-                        <h3><i class="fa fa-heart animated flash"></i></h3>
                         <ul class="list-inline list-unstyled">
-                            <li class="likes animated "><i class="fa fa-paint-brush"></i></li>     
+                            <li class="likes animated "><i class="fa fa-paint-brush"></i></li>
                             <li class="likes animated "><i class="fa fa-gamepad"></i></li>     
-                            <li class="likes animated "><i class="fa fa-paw"></i></li>     
+                            <li class="likes animated "><i class="fa fa-comments-o"></i></li>     
                         </ul>
                         <ul class="list-inline list-unstyled">
                             <li class="likes animated "><i class="fa fa-music"></i></li>
-                            <li class="likes animated "><i class="fa fa-tree"></i></li>
+                            <li class="likes animated "><i class="fa fa-desktop"></i></li>
+                            <li class="likes animated "><i class="fa fa-leaf"></i></li>
+                            
                         </ul>     
                     </div>
                     </div>
                   </div>
             </div>
-                <div class="row -info text-center">
-                <div class="col-md-6 col-xs-6 col-sm-6 pull-right timeline">
+            <div class="row -info text-center">
+                <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
                           <!---------Carousel----------------------->
                        <div id="carousel-1" class="carousel slide" data-ride="carousel">
                           <!---------Indicators----------------------->
@@ -117,37 +119,36 @@
                                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
-                        </div>    
-                    </div>
-                </div>   
-            </div>
+                    </div>    
+                </div>
+            </div>   
+        </div>
 	</div>
 </section>
 <!----------------FIRST-SKILLS--------------------------------------------------->
 <section id="skills" class=" info-skills">
 	<div class="content">
 		<div class="container-fluid">
-           <!-----------------------TOURISM----------------------------->
-            <div class="row text-right">
+           <!-----------------------Languages----------------------------->
+            <div class="row text-left languages_skills -skills">
                     <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
-                        <h3 id="name">Languages</h3>
-                        <div class="programs_tourism">
-                            
-                        </div>
-                        <ul class="list-unstyled">
-                            <li>Spanish</li>
-                            <li>English</li>
-                            <li>Mandarin</li>
-                            <li>Japanese</li>
-                        </ul> 
+                        <h2 class="animated fadeInLeft">Idiomas</h2>
+                        <hr class="hor animated fadeInRight">
+                        <div class="idiomas_skills text-center">
+                           <h3 id="name">Idiomas</h3>
+                            <div>Ingles: Avanzado <img src="images/statue_1.png" alt="" class="img-responsive"> </div>
+                            <div> <span>Mandarin Intermedio <img src="images/mandarin-2.1.png" alt="" class="img-responsive"></span></div>
+                            <div><span>Japones <br>Básico <img src="images/jp-3.png" alt="" class="img-responsive"></span></div>
+                            <div> <span>Portugues Básico<img src="images/br-4.png" alt="" class="img-responsive"></span></div>
+                        </div> 
                     </div>  
             </div>
-            <!-----------------------TOURISM----------------------------->
+            <!-----------------------Web Developer----------------------------->
             <div class="middle-structure -skills">
                 <div class="row middle-structure-info text-left">
                     <div class="col-md-12 col-xs-12 col-sm-12 pull-left">
-                        <h2>Skills</h2>
-                        <hr class="hor">
+                        <h2 class="animated fadeInLeft">Skills</h2>
+                        <hr class="hor animated fadeInRight">
                         <div class="logo_programs">
                             <h3>Web Developer</h3>
                             <div class="img_logo_skills -html">
@@ -159,20 +160,16 @@
                             <div class="img_logo_skills -js ">
                             <img src="images/js2-white.png" alt="" class="img-responsive">
                             </div>
-                        </div>
-                        <div class="logo_frameworks">
                             <div class="img_logo_skills -boot">
                             <img src="images/bootstraplogo.png" alt="html-image" class="img-responsive">
                             </div>
                             <div class="img_logo_skills -jq ">
                             <img src="images/jquery-white.png" alt="" class="img-responsive">
-                            </div>    
-                        </div>
-                        <div class="logo_pre_proce">
+                            </div>
                             <div class="img_logo_skills -sass">
                             <img src="images/sass-white.png" alt="html-image" class="img-responsive">
-                            </div>   
-                        </div>          
+                            </div>     
+                        </div>         
                     </div>  
                </div>
             </div>
@@ -185,11 +182,15 @@
 		<div class="container-fluid">
             <div class="middle-structure -projects" id="projects-image">
                <div class="middle-structure-info projects-image text-left">
-                <h2>Projects</h2>
-                <h3 id="name">User Testing 360</h3>
+                   <h2>Trabajos</h2>
                 <hr class="hor">    
                 <div class="img-projects-github">
-                    <div class="layer list-inline"> 
+                    <div class="layer1 huella">
+                       <h3 id="name">User Testing 360</h3> 
+                        <img src="images/User2.png" alt="" class="img-responsive" id="img_pros">
+                    </div>
+                    <div class="layer2">
+                       <h3 id="name">Use Testing 360</h3> 
                         <img src="images/User2.png" alt="" class="img-responsive" id="img_pros">
                     </div>
                 </div>
@@ -199,9 +200,9 @@
             <!--la estructura de los numeros -->
             <div class="middle-structure-right ">
                <div class="menu-navigation-number middle-structure-info">
-                   <ul class="list-unstyled">
-                       <li><span>01</span></li>
-                       <li><span>02</span></li>
+                   <ul class="list-unstyled" id="nav_menu_num">
+                       <li>01</li>
+                       <li>02</li>
                        <li>03</li>
                        <li>04</li>
                    </ul>
@@ -221,16 +222,54 @@
 <!----------------FIRST-CONTACT-ME--------------------------------------------------->
 <section id="contact_me" class=" info-contact-me">
 	<div class="content">
-		<div class="container-fluid">
-            <div class="middle-structure -about">
+		<div class="container-fluid -contact">
+            <div class="middle-structure">
                 <div class=" row info middle-structure-info text-left">
                     <div class="col-md-12 col-xs-12 col-sm-12 pull-left">
-                    <h2 class="animated fadeInLeft">Contact Me</h2>
-                    <hr class="hor animated fadeInRight">    
-                    <p class="animated fadeInLeft">Mi pasión por la tecnología, el diseño y los videojuegos hizo que llegara a LABORATORIA para formarme como desarrolladora y programadora web. </p>
-                    <p class="animated fadeInLeft">Tambien me apasiona la naturaleza, los viajes y el poder difundir la cultura que caracteriza a cada región, por ello estudie la carrera de Turismo y Hoteleria en la UNSA y estudie varios idiomas</p>
+                        <h2 class="animated fadeInLeft">Contáctame</h2>
+                        <hr class="hor animated fadeInRight">
+                        <!------------------ICONS------------------->
+                        <div class="text-center contact-icon animated fadeInRight">
+                            <p>gracefctorres@gmail.com</p>
+                            <ul class="list-unstyled list-inline ">
+                                <li><a href="https://www.linkedin.com/in/grace-clavijo-torres-0403784a/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/GraceFT"><i class="fa fa-github"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitch"></i></a></li>
+                            </ul>
+                        </div>  
+                        <!-------------FORM----------------->
+                        <p class="animated fadeInLeft">Enviame un mensaje!</p>
+                        <form class="form-horizontal animated fadeInLeft">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Nombre</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label  class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label  class="col-sm-2 control-label">Mensaje</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                                </div>
+                            </div>
+                        </form> 
                     </div>
-                  </div>
+                </div> 
+            </div>
+            <div class="row text-center contact_phrase">
+                    <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
+                        <p>“Vivo cada dia de mi vida <p> 
+                        <p>como si fuera el último, </p>
+                        <p> y aprendo <p>
+                        <p>como si fuese a vivir</p> 
+                        <p>para siempre”.<p>
+                    </div>  
             </div>
 		</div>
 	</div>
@@ -243,7 +282,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 <script src="js/jquery.js"></script> 
 <script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>   
+<script src="js/main.js"></script>
+<script src="js/projects.js"></script>   
 </body>
 </html>
 
