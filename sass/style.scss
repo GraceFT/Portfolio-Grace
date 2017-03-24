@@ -146,18 +146,13 @@ section{
 }
 
 /******+++++++++++++++++++++++PROJECTS***++++++++++++++++++***/
-
-.display{
-   opacity: 1;
-   display:  table;
-}
 .menu-navigation-number{
     box-sizing: border-box;
-    background:#fff; 
+    background:rgba(114, 128, 178,0.5); 
     color:#000;
 }
 .middle-structure-right{
-    background-color: #f2f2f2;
+    background: url(../images/back.png);
     width: 50%;
     height: 100%;
     position: $absolute;
@@ -171,12 +166,12 @@ section{
     width: 60px;
     margin: 0;
     padding: 0;
-}
-.menu-navigation-number li{
+    li{
     padding: 30px 0;
-}
-.menu-navigation-number li:nth-child(1){
+    }
+    li:nth-child(1){
     margin-top: 0;
+    }
 }
 .projects li{
     padding: 30px 0;
@@ -192,7 +187,9 @@ section{
 .layer img:hover{
     transform: scale(1.05);
     box-shadow: 1px 1px 8px rgba(0,0,0,0.6);
-}
+    
+    }
+
 /******+++++++++++++++++++++++CONTACT***++++++++++++++++++***/
 .contact_phrase p{
     font-size: 20px;
@@ -243,9 +240,6 @@ section{
         
     }
 }
-
-
-
 @media (max-width:870px)
 {
     .likes_about_me{
