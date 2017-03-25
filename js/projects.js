@@ -1,11 +1,17 @@
-/*$(document).ready(init);
+$(document).ready(init);
 
 function init(){
-   $.each('.projects')click(function(){
-        $('.layer').find('img').attr();
+    var proj= $('#projects li');
+   $.each(proj,function(){
+       $(this).click(onClickProject);
+       
     }); 
 }
-
+function onClickProject(){
+    alert("holaaa");
+    
+} 
+/*
 function project(_name,_image,_message){
 this.name= _name; 
 this.imageURL= _image;
@@ -17,8 +23,6 @@ var info=[
     new project1("User Testing ",'../images/User2.png'),
     new project2("Lyft",'../images/lyft2.png'),
 ];
-
-
 function initChatList(){
     var listChats = document.getElementById(".projects");
     for(var i in info){
@@ -33,8 +37,7 @@ function initChatList(){
     }
     setEventsListChats();
 }
-
-/*function init(){
+function init(){
     $("#pro_1").click(onClick1);
     $("#pro_2").click(onClick2);
     $("#pro_3").click(onClick3);

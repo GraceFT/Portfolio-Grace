@@ -22,6 +22,9 @@ $color: rgb(69,60,179);
     a:hover{
         color: #000;
     }
+    li{
+      cursor:pointer;
+    }
 }
 /******+++++++++++++++++++++++GENERAL***++++++++++++++++++***/
 body{
@@ -76,7 +79,7 @@ section{
     padding: 0 30px;
 }
 
-.about-me h2, .-skills h2, .-projects h2, .contact-me{
+.about-me h2, .-skills h2, .-projects h2, .-contact h2{
     font-family: "Abril Fatface";
     font-size: 50px;
     letter-spacing: 3px;
@@ -125,6 +128,7 @@ section{
     display: inline-block;
     border: 1px solid #fff;
     margin: 20px;
+    padding: 10px;
 }
 .-html:hover{
     background-color: #f9841f;
@@ -173,8 +177,13 @@ section{
     margin-top: 0;
     }
 }
-.projects li{
+.projects {
+    li{
     padding: 30px 0;
+    }
+    li:hover{
+    background: rgba(69,60,179,0.3);
+    }
 }
 .img-projects-github{
     margin: 25px;
@@ -201,7 +210,7 @@ section{
     margin: 30px 0;
     i{
         font-size: 30px;
-        color: royalblue;
+        color: rgba(69,60,179,0.5);
     }
     i:hover{
         color: #fff;
