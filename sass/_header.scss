@@ -1,0 +1,21 @@
+/******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
+.welcome{
+    background: url(../images/1rst%20demo%20city.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    width: 100%;
+    height: 100vh;
+}
+.vertical{
+    width: 2px;
+    background: #fff;
+    box-sizing: content-box;
+    margin: 0 15px;
+    height: 170px;
+}
+.intro-header h1{
+    display: inline-block;
+    font-size: 55px;
+    font-family: "Abril Fatface", "serif";
+}

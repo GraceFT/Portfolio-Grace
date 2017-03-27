@@ -1,4 +1,70 @@
+/*****************************PRE-LOADER******************************/
+#loader-wrapper .loader-section {
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+  background: #222222;
+  z-index: 1000; }
+
+#loader-wrapper .loader-section.section-left {
+  left: 0; }
+
+#loader-wrapper .loader-section.section-right {
+  right: 0; }
+
+.loaded #loader-wrapper .loader-section.section-left {
+  -webkit-transform: translateX(-100%);
+  /* Chrome, Opera 15+, Safari 3.1+ */
+  -ms-transform: translateX(-100%);
+  /* IE 9 */
+  transform: translateX(-100%);
+  /* Firefox 16+, IE 10+, Opera */ }
+
+.loaded #loader-wrapper .loader-section.section-right {
+  -webkit-transform: translateX(100%);
+  /* Chrome, Opera 15+, Safari 3.1+ */
+  -ms-transform: translateX(100%);
+  /* IE 9 */
+  transform: translateX(100%);
+  /* Firefox 16+, IE 10+, Opera */ }
+
+.loaded #loader {
+  opacity: 0; }
+
+.loaded #loader-wrapper {
+  visibility: hidden; }
+
+/******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
+.welcome {
+  background: url(../images/1rst%20demo%20city.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  width: 100%;
+  height: 100vh; }
+
+.vertical {
+  width: 2px;
+  background: #fff;
+  box-sizing: content-box;
+  margin: 0 15px;
+  height: 170px; }
+
+.intro-header h1 {
+  display: inline-block;
+  font-size: 55px;
+  font-family: "Abril Fatface", "serif"; }
+
 /******+++++++++++++++++++++++VARIABLES***++++++++++++++++++***/
+.structure-left, .middle-structure {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: table; }
+
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
 .navbar-gr img {
   width: 150px;
@@ -57,12 +123,6 @@ section {
 
 .middle-structure {
   background-color: #7280b2;
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: table;
   padding: 0 30px; }
 
 .about-me h2, .-skills h2, .-projects h2, .-contact h2 {
@@ -101,7 +161,7 @@ section {
 .idiomas_skills div {
   background: rgba(69, 60, 179, 0.5); }
 
-.img_logo_skills, .idiomas_skills div {
+.box, .img_logo-skills, .idiomas_skills div {
   width: 110px;
   height: 110px;
   display: inline-block;
@@ -186,27 +246,6 @@ section {
   .contact-icon p {
     font-weight: bold;
     font-size: 20px; }
-
-/******+++++++++++++++++++++++STYLES***++++++++++++++++++***/
-.welcome {
-  background: url(../images/1rst%20demo%20city.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center left;
-  width: 100%;
-  height: 100vh; }
-
-.vertical {
-  width: 2px;
-  background: #fff;
-  box-sizing: content-box;
-  margin: 0 15px;
-  height: 170px; }
-
-.intro-header h1 {
-  display: inline-block;
-  font-size: 55px;
-  font-family: "Abril Fatface", "serif"; }
 
 /******+++++++++++++++++++++++QUERIES***++++++++++++++++++***/
 @media (max-width: 870px) {

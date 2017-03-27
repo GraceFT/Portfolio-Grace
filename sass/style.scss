@@ -1,9 +1,20 @@
+@import "_preloader";
+@import "_header";
 /******+++++++++++++++++++++++VARIABLES***++++++++++++++++++***/
 $absolute:absolute;
 $table:table;
 $table-cell:table-cell;
 $margin-titles: 100px 0;
 $color: rgb(69,60,179);
+
+.structure-left{
+   width: 50%;
+    height: 100%;
+    position: $absolute;
+    top: 0;
+    left: 0;
+    display: $table; 
+}
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
 *{
     
@@ -68,14 +79,10 @@ section{
     display: $table-cell;
     vertical-align: middle;
 }
+
 .middle-structure{
+    @extend .structure-left;
     background-color: #7280b2;
-    width: 50%;
-    height: 100%;
-    position: $absolute;
-    top: 0;
-    left: 0;
-    display: $table;
     padding: 0 30px;
 }
 
@@ -122,7 +129,7 @@ section{
         background: rgba(69,60,179,0.5);
     }
 }
-.img_logo_skills, .idiomas_skills div{
+.box{
     width: 110px;
     height: 110px;
     display: inline-block;
@@ -130,6 +137,16 @@ section{
     margin: 20px;
     padding: 10px;
 }
+
+.img_logo-skills{
+    @extend .box;
+}
+.idiomas_skills{
+    div{
+        @extend .box; 
+    }
+}
+
 .-html:hover{
     background-color: #f9841f;
 }
@@ -221,27 +238,7 @@ section{
     }
 }
 
-/******+++++++++++++++++++++++STYLES***++++++++++++++++++***/
-.welcome{
-    background: url(../images/1rst%20demo%20city.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center left;
-    width: 100%;
-    height: 100vh;
-}
-.vertical{
-    width: 2px;
-    background: #fff;
-    box-sizing: content-box;
-    margin: 0 15px;
-    height: 170px;
-}
-.intro-header h1{
-    display: inline-block;
-    font-size: 55px;
-    font-family: "Abril Fatface", "serif";
-}
+
 /******+++++++++++++++++++++++QUERIES***++++++++++++++++++***/
 @media (max-width:870px)
 {
