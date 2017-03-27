@@ -10,6 +10,7 @@ function init(){
 function onClickProject(){
     alert("holaaa");
     
+    
 } 
 /*
 function project(_name,_image,_message){

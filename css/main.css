@@ -65,7 +65,11 @@
   left: 0;
   display: table; }
 
+/******+++++++++++++++++++++++SLIDER***++++++++++++++++++***/
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
+* {
+  outline: 1px solid rgba(0, 255, 0, 0.3); }
+
 .navbar-gr img {
   width: 150px;
   height: 100px; }
@@ -161,13 +165,16 @@ section {
 .idiomas_skills div {
   background: rgba(69, 60, 179, 0.5); }
 
-.box, .img_logo-skills, .idiomas_skills div {
+.box, .img_logo_skills, .idiomas_skills div {
   width: 110px;
   height: 110px;
   display: inline-block;
   border: 1px solid #fff;
   margin: 20px;
   padding: 10px; }
+
+.languages_skills h2 {
+  padding: 0 30px; }
 
 .-html:hover {
   background-color: #f9841f; }

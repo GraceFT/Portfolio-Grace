@@ -10,6 +10,7 @@ function init()
     $('#btn_skills').click(onClickSkills);
     $('#btn_project').click(onClickProjects);
     $('#btn_contact_me').click(onClickContactMe);
+    
 }
 ///+++++++++++++++++++++++++++++++++++++++PAGINATION++++++++++++++++++++++++++++++++++++///
 function onClickInitial()
@@ -38,9 +39,12 @@ function goToSection(_id)
 {
     currentSection.removeClass('visible');//display show
     var nextSection = $('#'+_id);
-    nextSection.addClass('visible'); //display block 
-    //TweenMax.from(nextSection, 1.5, {scale: 0.2, opacity: 0, ease: Elastic.easeOut});
+    nextSection.addClass('visible'); //display block;
     currentSection=nextSection;
+    //timeline.append( new TweenLite('#about_me', 5, {_x:"-150", ease:Elastic.easeOut}) );
+    //TweenLite.to('#about_me',1.5);
+    //TweenLite.to('#about_me',1.5, {x:"-=1",delay:"=1s});
+    
     //se le va a plicar a todas las pantallas
 }
 ///+++++++++++++++++++++++++++++++++++++++ADTIONAL FUNCTIONS++++++++++++++++++++++++++++///

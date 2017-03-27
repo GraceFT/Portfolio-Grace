@@ -15,9 +15,11 @@ $color: rgb(69,60,179);
     left: 0;
     display: $table; 
 }
+/******+++++++++++++++++++++++SLIDER***++++++++++++++++++***/
+
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
 *{
-    
+    outline: 1px solid rgba(0,255,0,0.3);
 }
 .navbar-gr img{
     width: 150px;
@@ -138,12 +140,13 @@ section{
     padding: 10px;
 }
 
-.img_logo-skills{
+.img_logo_skills, .idiomas_skills div{
     @extend .box;
 }
-.idiomas_skills{
-    div{
-        @extend .box; 
+.languages_skills 
+{
+    h2{
+        padding: 0 30px;
     }
 }
 
