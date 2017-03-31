@@ -13,7 +13,7 @@
 <body class="elbody">
 <!-------------------EL HEADER----------------------------------------->
 <header>
-    <nav class="navbar-gr" role="navigation" >
+    <nav class="navbar-gr navbar-inverse" role="navigation" style="">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -36,8 +36,14 @@
         </div>
     </nav>
 </header>
+<!----------------CANVAS--------------------------------------------------->
+<section>
+   <div class="content">
+        
+   </div>
+</section>
 <!----------------HOME--------------------------------------------------->
-<section id="welcome view-start" class="visible  welcome">
+<section id="welcome view-start initial" class="visible  welcome">
 	<div class="content">
 		<div class="container-fluid">
             <div class="intro-header">
@@ -47,13 +53,15 @@
                 </h1>
                 <h2>
                     <span style="transform:matrix(1,0,0,1,0,0);">Front-end Developer</span>
-                </h2>     
+                </h2>
+                       
             </div>
+              <!--<canvas id="divCanvas"></canvas>-->
 		</div>
 	</div>
 </section>
 <!----------------ABOUT-ME------ ------------------------------------------->
-<section id="about_me" class="info-about-me">
+<section id="about_me" class="info-about-me animated fadeInLeft">
 	<div class="content">
 		<div class="container-fluid">
             <div class="middle-structure about-me">
@@ -82,46 +90,14 @@
             </div>
             <div class="row -info text-center">
                 <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
-                          <!---------Carousel----------------------->
-                       <div id="carousel-1" class="carousel slide" data-ride="carousel">
-                          <!---------Indicators----------------------->
-                          <ol class="carousel-indicators">
-                            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-1" data-slide-to="1"></li>
-                            <li data-target="#carousel-1" data-slide-to="2"></li>
-                          </ol>
-
-                          <!--------------Wrapper for slides------->
-                          <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                              <img src="images/escogidas/photo1.JPG" class="img-responsive" alt="">
-                              <div class="carousel-caption hidden-xs hidden-sm caption-g">
-                              </div>
-                            </div>
-                            <div class="item">
-                              <img src="images/escogidas/photo2.JPG" class="img-responsive" alt="">
-                              <div class="carousel-caption hidden-xs hidden-sm caption-g">
-                              </div>
-                            </div>
-                          </div>
-
-                          <!------------------------Controls-------------------->
-                            <a href="#carousel-1" class="left carousel-control"  role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a href="#carousel-1" class="right carousel-control"  role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                    </div>    
+                          <img src="images/escogidas/photo1.JPG" alt="" class="img-responsive" stye="width:50%; height:100%">
                 </div>
             </div>   
         </div>
 	</div>
 </section>
 <!----------------FIRST-SKILLS--------------------------------------------------->
-<section id="skills" class=" info-skills">
+<section id="skills" class=" info-skills animated fadeInLeft">
 	<div class="content">
 		<div class="container-fluid">
            <!-----------------------Languages----------------------------->
@@ -176,10 +152,10 @@
 	<div class="content">
 		<div class="container-fluid">
             <div class="middle-structure -projects" id="projects-image">
-               <div class="middle-structure-info projects-image text-left">
-                   <h2>Trabajos</h2>
+               <div class="middle-structure-info projects-image text-left animated fadeInLeft">
+                   <h2 class="animated fadeInLeft">Trabajos</h2>
                     <hr class="hor">    
-                    <div class="img-projects-github layer">
+                    <div class="img-projects-github layer animated fadeInRight">
                         <h3 id="name">User Testing 360</h3> 
                         <img src="images/User2.png" alt="" class="img-responsive" id="img_pros">
                     </div>
@@ -187,7 +163,7 @@
                </div>
             </div>
             <!--la estructura de los numeros -->
-            <div class="middle-structure-right ">
+            <div class="middle-structure-right animated fadeInRight">
                <div class="menu-navigation-number middle-structure-info">
                    <ul class="list-unstyled" id="nav_menu_num">
                        <li>01</li>
@@ -209,7 +185,7 @@
 	</div>
 </section>
 <!----------------FIRST-CONTACT-ME--------------------------------------------------->
-<section id="contact_me" class=" info-contact-me">
+<section id="contact_me" class=" info-contact-me fadeInLeft">
 	<div class="content">
 		<div class="container-fluid -contact">
             <div class="middle-structure">
@@ -272,7 +248,8 @@
 <script src="js/jquery.js"></script> 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/projects.js"></script>   
+<!--<script src="js/projects.js"></script>--> 
+<!--<script src="js/milkyway.js"></script> --stars-->  
 </body>
 </html>
 
