@@ -170,12 +170,21 @@ section{
 }
 
 /******+++++++++++++++++++++++PROJECTS***++++++++++++++++++***/
+.img_projects{
+    li{
+        width: 350px;
+        margin-top: 20px 0;
+    }
+}
 .menu-navigation-number{
     box-sizing: border-box;
     background:rgba(114, 128, 178,0.5); 
     color:#000;
 }
-.middle-structure-right{
+.projects_left, .projects_right{
+    background:rgba(114, 128, 178,0.9);
+}
+/*.middle-structure-right{
     background: url(../images/back.png);
     width: 50%;
     height: 100%;
@@ -196,8 +205,9 @@ section{
     li:nth-child(1){
     margin-top: 0;
     }
-}
+}*/
 .projects {
+    color: #000;
     li{
     padding: 30px 0;
     }
@@ -210,7 +220,6 @@ section{
 }
 .layer img{
     transition:box-shadow 2s, transform 250ms, filter 250ms ease-in-out;
-    opacity: 0.6;
     filter: alpha(opacity=80);
 }
 .layer img:hover{
