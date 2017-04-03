@@ -6,6 +6,15 @@ $table:table;
 $table-cell:table-cell;
 $margin-titles: 100px 0;
 $color: rgb(69,60,179);
+body{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+
 
 .structure-left{
    width: 50%;
