@@ -11,6 +11,7 @@ function init()
     $('#btn_project').click(onClickProjects);
     $('#btn_contact_me').click(onClickContactMe);
     
+    
 }
 ///+++++++++++++++++++++++++++++++++++++++PAGINATION++++++++++++++++++++++++++++++++++++///
 function onClickInitial()

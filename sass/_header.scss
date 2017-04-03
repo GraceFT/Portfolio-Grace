@@ -1,13 +1,28 @@
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
 .welcome{
-    background: url(../images/finished-city-wh-back.png);
+    /*background: url(../images/finished-city-wh-back.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
+    background-color: rgba(120,207,245,0.3);*/
     width: 100%;
     height: 100vh;
-    background-color: #000;
-    
+    overflow: hidden; 
+}
+.img{
+    background-image: url(../images/finished-city-wh-back.png);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+canvas{
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+
 }
 .vertical{
     width: 2px;
