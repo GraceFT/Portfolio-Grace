@@ -53,7 +53,6 @@ body{
 }
 
 .nav_grace {
-    
     color: #fff;
     li{
         cursor:pointer;
@@ -61,7 +60,7 @@ body{
             color: #fff;
         }
         a:hover{
-            background-color: $color_princ;
+            background-color: $color_contraste;
         }
     }
 }
@@ -89,7 +88,7 @@ header{
     background: #fff;
 }
 section{
-    background: rgba(116, 95, 211,0.5);
+    background: rgba(116, 95, 211,0.35);
     position: $absolute;
     top: 0;
     left: 0;
@@ -269,8 +268,8 @@ opacity:1;
 {
     margin: 30px 0;
     i{
-        font-size: 30px;
-        color: rgba(69,60,179,0.5);
+        font-size: 35px;
+        color: $color_contraste;
     }
     i:hover{
         color: #fff;

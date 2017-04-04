@@ -116,7 +116,7 @@ body {
     .nav_grace li a {
       color: #fff; }
     .nav_grace li a:hover {
-      background-color: rgba(76, 76, 150, 0.7); }
+      background-color: rgba(0, 220, 183, 0.7); }
 
 /******+++++++++++++++++++++++GENeRAL***++++++++++++++++++***/
 body {
@@ -139,7 +139,7 @@ header {
   background: #fff; }
 
 section {
-  background: rgba(116, 95, 211, 0.5);
+  background: rgba(116, 95, 211, 0.35);
   position: absolute;
   top: 0;
   left: 0;
@@ -292,8 +292,8 @@ section {
 .contact-icon {
   margin: 30px 0; }
   .contact-icon i {
-    font-size: 30px;
-    color: rgba(69, 60, 179, 0.5); }
+    font-size: 35px;
+    color: rgba(0, 220, 183, 0.7); }
   .contact-icon i:hover {
     color: #fff; }
   .contact-icon p {
