@@ -284,8 +284,9 @@ section {
 
 /******+++++++++++++++++++++++CONTACT***++++++++++++++++++***/
 .contact_phrase p {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Abril Fatface";
+  font-style: italic;
   letter-spacing: 1.5; }
 
 .contact-icon {
