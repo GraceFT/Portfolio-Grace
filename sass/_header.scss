@@ -1,13 +1,4 @@
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
-.welcome{
-    /*background: url(../images/finished-city-wh-back.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center left;
-    background-color: rgba(120,207,245,0.3);
-    overflow:hidden;
-    */
-}
 .intro-header{
     position: absolute;
 }
@@ -36,11 +27,19 @@ canvas{
     box-sizing: content-box;
     margin: 0 15px;
     height: 170px;
+    box-shadow: 3px 3px rgb(58,54,175);
 }
-.intro-header h1{
+.intro-header {
+    h1{
     display: inline-block;
     font-size: 55px;
     font-family: "Abril Fatface", "serif";
-    text-shadow: 3px 3px rgba(0,0,0,0.3);
+    text-shadow: 5px 5px rgba(58,54,175,0.9);
+    }
+    h2{
+    text-shadow: 3px 3px rgb(58,54,175);    
+    }
 }
+
+
 

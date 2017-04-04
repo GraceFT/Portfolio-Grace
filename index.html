@@ -13,7 +13,7 @@
 <body class="elbody">
 <!-------------------EL HEADER----------------------------------------->
 <header>
-    <nav class="navbar-gr navbar-inverse" role="navigation" style="">
+    <nav class="navbar-gr navbar-inverse" role="navigation" style="background:rgba(65,61,170,0.5); color:#fff;">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -45,7 +45,7 @@
             <div class="intro-header">
                 <hr class="pull-left vertical">
                 <h1>
-                    <span style="transform:matrix(1,0,0,1,0,0);">Grace Clavijo</span>
+                    <span style="transform:matrix(1,0,0,1,0,0);" class="title">Grace Clavijo</span>
                 </h1>
                 <h2>
                     <span style="transform:matrix(1,0,0,1,0,0);">Front-end Developer</span>
@@ -65,7 +65,11 @@
                     <h2 class="animated fadeInLeft"> Sobre  Mí</h2>
                     <hr class="hor animated fadeInRight">    
                     <p class="animated fadeInLeft">Mi pasión por la tecnología, el diseño y los videojuegos hizo que llegara a LABORATORIA para formarme como desarrolladora y programadora web. </p>
-                    <p class="animated fadeInLeft">Tambien me apasiona la naturaleza, los viajes, los idiomas y el poder difundir la cultura que caracteriza a cada región, por ello estudie la carrera de Turismo y Hoteleria.</p>
+                    <p class="animated fadeInLeft" style="font-style:italic; color:rgb(141,208,185);font-weight:bold;font-size:16px;">¿Qué me interesa?</p>
+                    <p class="animated fadeInLeft">Poder desarrollarme y especializarme en UI, UX, estar a la vanguardia de cada paso en experiencia al usuario y en la innovacion de páginas web.
+                    Ademas del desarrollo frontend, me encantaria participar en proyectos sobre desarrollo de videojuegos, quiero ser participe del crecimiento de esta industria en mi país. 
+                    </p>
+                    <p class="animated fadeInLeft">A la par con mi carrera de Turismo y mi curiosidad por otras culturas,  pude estudiar 4 idiomas: Ingles, Japones, Chino  y Portugues.</p>
                     <!------------LIKES------------->    
                     <div class="text-center likes_about_me">
                         <ul class="list-inline list-unstyled">
@@ -128,8 +132,6 @@
             <!-----------------------Languages----------------------------->
             <div class="row text-left languages_skills -skills">
                     <div class="col-md-6 col-xs-6 col-sm-6 pull-right">
-                        <h2 class="animated fadeInLeft">Idiomas</h2>
-                        <hr class="hor animated fadeInRight">
                         <div class="idiomas_skills text-center">
                            <h3 id="name">Idiomas</h3>
                             <div><span>Inglés Avanzado</span><img src="images/statue_1.png" alt="" class="img-responsive"> </div>
@@ -143,35 +145,59 @@
 	</div>
 </section>
 <!----------------FIRST-PROJECTS--------------------------------------------------->
-<section id="projects" class="animated fadeInLeft">
+<section id="projects" class="animated fadeInLeft _projects_total">
 	<div class="content">
 		<div class="container-fluid">
-             <div class="row text-center -projects _projects_total">
-                   <!--<h2 class="animated fadeInLeft">MisTrabajos</h2>-->
+             <div class="row text-center -projects">
+                <h2 class="animated fadeInLeft">MisTrabajos</h2>
                     <hr class="linea_projects">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <ul class="img_projects list-unstyled list-inline layer animated">
-                            <li class="project_1 layer">
-                                <a href=""><img src="images/User2.png" alt="html-image" class="img-responsive"></a>
-                            </li>
-                            <li class="project_2 layer">
-                                <a href=""><img src="images/lyft2.png" alt="" class="img-responsive"></a>
-                            </li>
-                        </ul>
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-center">
+                        <div class="img_projects">
+                            <img src="images/User2.png" alt="" class="img-responsive">
+                            <div class="info_enlace">
+                               <div>
+                                   <h3>User Testing</h3>
+                                <button class="btn"> <a href="https://graceft.github.io/User-Testing2/">View</a></button>
+                                <button class="btn"> <a href="https://github.com/GraceFT/User-Testing2"><i class="fa fa-github"></i></a></button>
+                               </div>
+                            </div> 
+                        </div> 
+                        <div class="img_projects">
+                            <img src="images/lyft2.png" alt="" class="img-responsive">
+                            <div class="info_enlace">
+                               <div>
+                                <h3>Lyft</h3>
+                                <button class="btn"> <a href="https://graceft.github.io/lyft/">View</a></button>
+                                <button class="btn"> <a href="https://github.com/GraceFT/lyft"><i class="fa fa-github"></i></a></button>
+                                </div>
+                            </div> 
+                        </div>
                     </div>
-                    
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <ul class="img_projects list-unstyled list-inline layer animated">
-                            <li class="project_1 layer">
-                                <a href=""><img src="images/gato-loco2.png" alt="html-image" class="img-responsive"></a>
-                            </li>
-                            <li class="project_2 layer">
-                                <a href=""><img src="images/port-grace4.png" alt="" class="img-responsive"></a>
-                            </li>
-                        </ul>
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-center">
+                        <div class="img_projects">
+                            <img src="images/gato-loco2.png" alt="" class="img-responsive">
+                            <div class="info_enlace">
+                                <div>
+                                    <h3>Gato Loco</h3>
+                                    <button class="btn"> <a href="https://graceft.github.io/gato-loco/">View</a></button>
+                                    <button class="btn"> <a href="https://github.com/GraceFT/gato-loco"><i class="fa fa-github"></i></a></button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="img_projects">
+                            <img src="images/port-grace4.png" alt="" class="img-responsive">
+                            <div class="info_enlace">
+                                <div>
+                                    <h3>Portafolio</h3>
+                                    <button class="btn"> <a href="https://graceft.github.io/MiPortafolio/">View</a></button>
+                                    <button class="btn"> <a href="https://github.com/GraceFT/MiPortafolio"><i class="fa fa-github"></i></a></button>    
+                                </div>
+                            </div>
+                        </div>
                     </div>
-		    </div>
-	    </div>
+            </div>
+        </div>
     </div>
 </section>
 <!----------------FIRST-CONTACT-ME--------------------------------------------------->
@@ -180,7 +206,7 @@
 		<div class="container-fluid -contact">
             <div class="middle-structure">
                 <div class=" row info middle-structure-info text-left">
-                    <div class="col-md-12 col-xs-12 col-sm-12 pull-left">
+                    <div class="col-md-12 col-xs-12 col-sm-12">
                         <h2 class="animated fadeInLeft">Contáctame</h2>
                         <hr class="hor animated fadeInRight">
                         <!------------------ICONS------------------->
@@ -196,20 +222,20 @@
                         <p class="animated fadeInLeft">Enviame un mensaje!</p>
                         <form class="form-horizontal animated fadeInRight">
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">Nombre</label>
-                                <div class="col-sm-10">
+                                <label class="col-sm-2 col-xs-2 control-label">Nombre</label>
+                                <div class="col-sm-10 col-xs-12">
                                     <input type="password" class="form-control" id="inputPassword3" placeholder="Nombre">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label  class="col-sm-2 control-label">Email</label>
-                                <div class="col-sm-10">
+                                <label  class="col-sm-2 col-xs-2 control-label">Email</label>
+                                <div class="col-sm-10 col-xs-12">
                                     <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label  class="col-sm-2 control-label">Mensaje</label>
-                                <div class="col-sm-10">
+                                <label  class="col-sm-2 col-xs-2 control-label">Mensaje</label>
+                                <div class="col-sm-10 col-xs-12">
                                     <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
                                 </div>
                             </div>
@@ -240,7 +266,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 <!--<script src="js/projects.js"></script>--> 
-<script src="js/milkyway.js"></script>  
+<script src="js/milkyway.js"></script>   
 </body>
 </html>
 
