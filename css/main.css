@@ -93,7 +93,7 @@ body {
   /*outline: 1px solid rgba(0,255,0,0.3);*/ }
 
 .navbar-gr {
-  background: #37aea8; }
+  margin-top: 13px; }
   .navbar-gr img {
     width: 150px;
     height: 100px; }
