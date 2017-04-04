@@ -90,7 +90,7 @@ body {
 
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
 * {
-  /*outline: 1px solid rgba(0,255,0,0.3);*/ }
+  outline: 1px solid rgba(0, 255, 0, 0.3); }
 
 .navbar-gr {
   margin-top: 13px; }
@@ -104,7 +104,7 @@ body {
   .navbar-gr a {
     text-decoration: none; }
     .navbar-gr a h4 {
-      margin-top: 7px;
+      margin-top: 15px;
       color: #fff;
       font-weight: bold;
       cursor: pointer; }
@@ -192,7 +192,7 @@ section {
   padding-left: 45px; }
 
 .idiomas_skills {
-  margin-top: 70px; }
+  margin-top: 100px; }
   .idiomas_skills img {
     width: 50px;
     height: 50px;
@@ -283,22 +283,26 @@ section {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6); }
 
 /******+++++++++++++++++++++++CONTACT***++++++++++++++++++***/
-.contact_phrase p {
-  font-size: 30px;
-  font-family: "Abril Fatface";
-  font-style: italic;
-  letter-spacing: 1.5; }
-
-.contact-icon {
-  margin: 30px 0; }
-  .contact-icon i {
-    font-size: 35px;
-    color: rgba(0, 220, 183, 0.7); }
-  .contact-icon i:hover {
-    color: #fff; }
-  .contact-icon p {
-    font-weight: bold;
-    font-size: 20px; }
+.-contact {
+  margin: auto; }
+  .-contact .contact-icon {
+    margin: 30px 0; }
+    .-contact .contact-icon i {
+      font-size: 35px;
+      color: rgba(0, 220, 183, 0.7); }
+    .-contact .contact-icon i:hover {
+      color: #fff; }
+    .-contact .contact-icon p {
+      font-weight: bold;
+      font-size: 20px; }
+  .-contact .contact_phrase p {
+    font-size: 30px;
+    font-family: "Abril Fatface";
+    font-style: italic;
+    letter-spacing: 1.5; }
+  .-contact button {
+    background-color: rgba(0, 220, 183, 0.7);
+    margin-left: 100px; }
 
 /******+++++++++++++++++++++++QUERIES***++++++++++++++++++***/
 @media (max-width: 870px) {
