@@ -90,7 +90,7 @@ body {
 
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
 * {
-  outline: 1px solid rgba(0, 255, 0, 0.3); }
+  /*outline: 1px solid rgba(0,255,0,0.3);*/ }
 
 .navbar-gr {
   margin-top: 13px; }
