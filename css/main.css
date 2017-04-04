@@ -92,16 +92,31 @@ body {
 * {
   /*outline: 1px solid rgba(0,255,0,0.3);*/ }
 
-.navbar-gr img {
-  width: 150px;
-  height: 100px; }
+.navbar-gr {
+  background: #37aea8; }
+  .navbar-gr img {
+    width: 150px;
+    height: 100px; }
+  .navbar-gr button {
+    background: rgba(116, 95, 211, 0.7); }
+    .navbar-gr button .icon-bar {
+      background: #fff; }
+  .navbar-gr a {
+    text-decoration: none; }
+    .navbar-gr a h4 {
+      margin-top: 7px;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer; }
 
-.nav_grace li {
-  cursor: pointer; }
-  .nav_grace li a {
-    color: #fff; }
-.nav_grace li:hover {
-  background: rgba(0, 220, 183, 0.7); }
+.nav_grace {
+  color: #fff; }
+  .nav_grace li {
+    cursor: pointer; }
+    .nav_grace li a {
+      color: #fff; }
+    .nav_grace li a:hover {
+      background-color: rgba(116, 95, 211, 0.7); }
 
 /******+++++++++++++++++++++++GENeRAL***++++++++++++++++++***/
 body {
@@ -110,6 +125,14 @@ body {
 header {
   position: relative;
   z-index: 100; }
+
+.img_content .logo_central {
+  width: 6%;
+  position: absolute;
+  left: 44%;
+  top: 110px;
+  opacity: 0.4;
+  filter: alpha(opacity=70); }
 
 /******+++++++++++++++++++++++STRUCTURE***++++++++++++++++++***/
 .info-projects {
