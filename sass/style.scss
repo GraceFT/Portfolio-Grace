@@ -8,7 +8,7 @@ $margin-titles: 100px 0;
 $color: rgb(69,60,179);
 $color_contraste:rgba(0,220,183,0.7);
 $color_nav:rgb(55,174,168);
-$color_princ:rgba(116, 95, 211,0.7);
+$color_princ:rgba(76, 76, 150,0.7);
 body{
     position: absolute;
     margin: 0;
@@ -78,7 +78,7 @@ header{
     width: 6%;
     position: absolute;
     left: 44%;
-    top: 110px;
+    top: 135px;
      opacity: 0.4;
     filter: alpha(opacity=70);
     }
@@ -110,7 +110,7 @@ section{
 
 .middle-structure{
     @extend .structure-left;
-    background-color: rgb(116, 95, 211);
+    background-color: rgb(76, 76, 150);
     padding: 0 30px;
 }
 
@@ -240,7 +240,7 @@ filter: alpha(opacity=100);
 opacity:1;
 }
 ._projects_total{
-    background:rgb(116, 95, 211);
+    background:rgb(76, 76, 150);
 }
 .linea_projects{
    width: 50%;
