@@ -68,7 +68,7 @@ canvas {
   display: inline-block;
   font-size: 55px;
   font-family: "Abril Fatface", "serif";
-  text-shadow: 5px 5px rgba(58, 54, 175, 0.9); }
+  text-shadow: 4px 4px rgba(58, 54, 175, 0.9); }
 .intro-header h2 {
   text-shadow: 3px 3px #3a36af; }
 
@@ -103,11 +103,14 @@ body {
       background: #fff; }
   .navbar-gr a {
     text-decoration: none; }
-    .navbar-gr a h4 {
+    .navbar-gr a h3 {
       margin-top: 15px;
       color: #fff;
       font-weight: bold;
-      cursor: pointer; }
+      cursor: pointer;
+      text-shadow: 2px 2px rgba(58, 54, 175, 0.9); }
+    .navbar-gr a h3:hover {
+      background: rgba(0, 220, 183, 0.7); }
 
 .nav_grace {
   color: #fff; }
@@ -120,7 +123,7 @@ body {
 
 /******+++++++++++++++++++++++GENeRAL***++++++++++++++++++***/
 body {
-  font-family: "Montserrat"; }
+  font-family: "Raleway"; }
 
 header {
   position: relative;
@@ -164,8 +167,7 @@ section {
 .about-me h2, .-skills h2, .-projects h2, .-contact h2 {
   font-family: "Abril Fatface";
   font-size: 50px;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px rgba(0, 220, 183, 0.7); }
+  letter-spacing: 3px; }
 
 .hor {
   width: 80px;
@@ -325,6 +327,9 @@ section {
 @media (max-width: 414px) {
   .middle-structure-info h2 {
     margin-top: 100px; }
+
+  .navbar-gr a h3 {
+    margin-left: 30px; }
 
   .-projects h2 {
     margin-top: 100px; }
