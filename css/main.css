@@ -175,6 +175,9 @@ section {
   border: 2px solid rgba(0, 220, 183, 0.7); }
 
 /******+++++++++++++++++++++++ABOUT-ME***++++++++++++++++++***/
+.cv_grace {
+  margin-top: 25px; }
+
 .likes_about_me {
   margin: 40px 20px; }
   .likes_about_me .likes {
