@@ -1,6 +1,6 @@
 $(document).ready(init);
 function init(){
-    $("#name").on("keyup",validateName);
+    $("#name_user").on("keyup",validateName);
     $("#email").on("keyup",validateEmail);
     $('#btn_send').on("click",validateForm);
 }
@@ -24,14 +24,14 @@ function CapitaliseFirstLetter(_id) {
 }
 //********************************Validate name*******************************************//
 function validateName(){
-   var valiname = $('#name');
+   var valName = $('#name_user');
     var isName= false;
-    if(valiName.val().length!=0 && valiName.val().length<30 && valiName.val().match(/^[a-zA-Z\s]*$/)){
-        CapitaliseFirstLetter(valiName);
-        $("#avise").html('<span style="color:green; font-size:11px; font-style:italic;">Validate Name and Lastname</span>');
+    if(valName.val().length!=0 && valName.val().match(/^[a-zA-Z\s]*$/)){
+        //CapitaliseFirstLetter(valiName);
+        $("#avisename").html('<span style="color:#fff; font-size:11px; font-style:italic;">Validate Name</span>');
         isName=true; 
     }else{
-        $("#avise").html('<span style="color:#ff0; font-size:11px; font-style:italic;">Complete with your name and lastname</span>');
+        $("#avisename").html('<span style="color:blue; font-size:11px; font-style:italic;">Complete with your name</span>');
         isName=false; 
     }
     return isName;
@@ -41,10 +41,10 @@ function validateEmail(){
     var valiMail = $("#email");
     var isEmail= false;
     if(valiMail.val().length!=0 && valiMail.val().length<50 && valiMail.val().match(/^([a-z]+[a-z1-9._-]*)@{1}([a-z1-9\.]{2,})\.([a-z]{2,3})$/)){
-        $("#avisemail").html('<span style="color:green; font-size:11px; font-style:italic;">Validate Email</span>');
+        $("#avisemail").html('<span style="color:#fff; font-size:11px; font-style:italic;">Validate Email</span>');
         isEmail=true; 
     }else{
-        $("#avisemail").html('<span style="color:#ff00bf; font-size:11px; font-style:italic;">Complete with your email</span>');
+        $("#avisemail").html('<span style="color:blue; font-size:11px; font-style:italic;">Complete with your email</span>');
         isEmail=false;
     }
     return isEmail;
