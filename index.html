@@ -17,18 +17,19 @@
 <header>
     <nav class="navbar-gr" role="navigation">
         <div class="container-fluid">
-            <div class="navbar-header ">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a id="btn_initial" class="name"><h3>GC</h3></a>
+                <a class="navbar-brand" id="btn_initial">
+                    <img alt="Brand" src="images/logo2.png">
+                </a>
             </div>
-            <div class="navbar-collapse collapse nav_grace" id="bs-example-navbar-collapse-1" aria-expanded="false">
-                <ul class="nav navbar-nav navbar-right">
+            <div class=" collapse navbar-collapse nav_grace" id="navbar-1">
+                <ul class="nav navbar-nav navbar-right text-center" aria-expanded="true">
                     <li><a id="btn_about_me">Sobre Mí</a></li>
                     <li><a id="btn_skills">Habilidades</a></li>
                     <li><a id="btn_project">Trabajos</a></li>
@@ -67,16 +68,12 @@
             <div class="middle-structure about-me">
                 <div class=" row info middle-structure-info text-left">
                     <div class="col-md-12 col-xs-12 col-sm-12 pull-left">
-                    <h2 class="animated fadeInLeft"> Sobre  Mí</h2>
-                    <hr class="hor animated fadeInRight">    
+                    <h2 class="animated fadeInLeft"> Sobre  Mí</h2>    
                     <p class="animated fadeInLeft">Mi pasión por la tecnología, el diseño y los videojuegos hizo que llegara a LABORATORIA para formarme como desarrolladora y programadora web. </p>
-                    <p class="animated fadeInLeft" style="font-style:italic; color:rgb(0,220,183);font-weight:bold;font-size:16px;">¿Qué me interesa?</p>
+                    <p class="animated fadeInLeft" style="color:rgb(0,220,183);font-weight:bold;font-size:16px;">¿Qué me interesa?</p>
                     <p class="animated fadeInLeft">Poder desarrollarme y especializarme en UI, UX, estar a la vanguardia de cada paso en experiencia al usuario y en la innovación de páginas web.
                     Además del desarrollo frontend, me encantaría participar en proyectos sobre desarrollo de videojuegos, quiero ser participe del crecimiento de esta industria en mi país. 
                     </p>
-                    <div class="text-center cv_grace">
-                        <a target="_blank" href="https://drive.google.com/file/d/0BxpvOLxdlknxVXptLUdTcm1USDVsRTJNRnllelYtN1RpNUpZ/view?usp=sharing"><button class="btn">Descarga mi CV</button></a>
-                    </div>
                     <!------------LIKES------------->    
                     <div class="text-center likes_about_me">
                         <ul class="list-inline list-unstyled">
@@ -111,7 +108,6 @@
                 <div class="row middle-structure-info text-left">
                     <div class="col-md-12 col-xs-12 col-sm-12 pull-left">
                         <h2 class="animated fadeInLeft">Skills</h2>
-                        <hr class="hor animated fadeInRight">
                         <div class="logo_programs text-center">
                             <h3>Web Developer</h3>
                             <div class="img_logo_skills -css">
@@ -215,16 +211,20 @@
                 <div class=" row info middle-structure-info text-left">
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <h2 class="animated fadeInLeft">Contáctame</h2>
-                        <hr class="hor animated fadeInRight">
                         <!------------------ICONS------------------->
                         <div class="text-center contact-icon animated fadeInRight">
+                           <p class="animated fadeInLeft">Envíame un mensaje!</p>
                             <p>gracefctorres@gmail.com</p>
                             <ul class="list-unstyled list-inline ">
-                                <li><a href="https://www.linkedin.com/in/grace-clavijo-torres-0403784a/"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://github.com/GraceFT"><i class="fa fa-github"></i></a></li>
+                                <li><a target="_blank" href="https://www.linkedin.com/in/grace-clavijo-torres-0403784a/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a target="_blank" href="https://github.com/GraceFT"><i class="fa fa-github"></i></a></li>
+                                <li><a target="_blank" href="mailto:gracefctorres@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                                 
                             </ul>
-                            <p class="animated fadeInLeft">Enviame un mensaje!</p>
+                            <div class="text-center cv_grace">
+                                <a target="_blank" href="https://drive.google.com/file/d/0BxpvOLxdlknxVXptLUdTcm1USDVsRTJNRnllelYtN1RpNUpZ/view?usp=sharing"><button class="btn">Descarga mi CV</button></a>
+                            </div>
+                             
                         </div>  
                     </div>
                 </div> 

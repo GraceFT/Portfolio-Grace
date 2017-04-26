@@ -102,15 +102,11 @@ body {
     .navbar-gr button .icon-bar {
       background: #fff; }
   .navbar-gr a {
-    text-decoration: none; }
-    .navbar-gr a h3 {
-      margin-top: 15px;
-      color: #fff;
-      font-weight: bold;
-      cursor: pointer;
-      text-shadow: 2px 2px rgba(58, 54, 175, 0.9); }
-    .navbar-gr a h3:hover {
-      background: rgba(0, 220, 183, 0.7); }
+    cursor: pointer; }
+    .navbar-gr a img {
+      width: 35px;
+      height: 35px;
+      margin-top: 0; }
 
 .nav_grace {
   color: #fff; }
@@ -120,6 +116,8 @@ body {
       color: #fff; }
     .nav_grace li a:hover {
       background-color: rgba(0, 220, 183, 0.7); }
+  .nav_grace ul {
+    background-color: rgba(0, 220, 183, 0.7); }
 
 /******+++++++++++++++++++++++GENeRAL***++++++++++++++++++***/
 body {
@@ -175,8 +173,8 @@ section {
   border: 2px solid rgba(0, 220, 183, 0.7); }
 
 /******+++++++++++++++++++++++ABOUT-ME***++++++++++++++++++***/
-.cv_grace {
-  margin-top: 25px; }
+.info div h2 {
+  margin-bottom: 20px; }
 
 .likes_about_me {
   margin: 40px 20px; }
@@ -293,7 +291,7 @@ section {
   .-contact .contact-icon {
     margin: 30px 0; }
     .-contact .contact-icon i {
-      font-size: 75px;
+      font-size: 65px;
       color: rgba(0, 220, 183, 0.7); }
     .-contact .contact-icon i:hover {
       color: #fff; }
@@ -305,9 +303,6 @@ section {
     font-family: "Abril Fatface";
     font-style: italic;
     letter-spacing: 1.5; }
-  .-contact button {
-    background-color: rgba(0, 220, 183, 0.7);
-    margin-left: 100px; }
 
 /******+++++++++++++++++++++++QUERIES***++++++++++++++++++***/
 @media (max-width: 870px) {
