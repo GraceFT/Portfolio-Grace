@@ -27,7 +27,7 @@ body{
 
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
 *{
-    /*outline: 1px solid rgba(0,255,0,0.3);*/}
+    /*outline: 1px solid rgba(0,255,0,0.3)*/;}
 .navbar-gr {
     margin-top:13px; 
     img{
@@ -206,19 +206,24 @@ section{
 
 
 /******+++++++++++++++++++++++PROJECTS***++++++++++++++++++***/
+
+.-projects{
+    h2{
+       margin: 60px 0 30px 0; 
+    }
+}
 .img_projects{
-        width: 65%;
+        width: 60%;
         margin-top: 20px 0;
         position: relative;
         margin: 15px auto;
         box-shadow: 3px solid rgba(0,0,0,0.3);
      img{
-        opacity: 0.7;
-        filter: alpha(opacity=80);
+        /*opacity: 0.7;
+        filter: alpha(opacity=80);*/
         position: relative;   
     }
 }
-
 .info_enlace{
     position: absolute;
     top: 0;
@@ -247,17 +252,17 @@ filter: alpha(opacity=100);
 opacity:1;
 }
 ._projects_total{
-    background:rgb(76, 76, 150);
+    background:rgba(76, 76, 150,0.7);
 }
-.linea_projects{
+/*.linea_projects{
    width: 50%;
     border: 2px solid $color_contraste;
-}
+}*/
 
 .layer img{
     transition:box-shadow 2s, transform 250ms, filter 250ms ease-in-out;
-    opacity: 0.7;
-    filter: alpha(opacity=80);
+    /*opacity: 0.7;
+    filter: alpha(opacity=80);*/
 }
 .layer img:hover{
     transform: scale(1.05);
@@ -268,12 +273,16 @@ opacity:1;
 /******+++++++++++++++++++++++CONTACT***++++++++++++++++++***/
 .-contact{
     margin: auto;
-    .contact-icon 
+    .contact-icon
     {
     margin: 30px 0;
+        p:nth-child(1){
+        margin: 40px 0 50px 0;
+    }
     i{
         font-size: 65px;
         color: $color_contraste;
+        padding: 10px;
     }
     i:hover{
         color: #fff;
@@ -291,7 +300,9 @@ opacity:1;
         letter-spacing: 1.5;
         }    
     }
-    
+    button{
+        margin: 40px 0;
+    }
 }
 /******+++++++++++++++++++++++QUERIES***++++++++++++++++++***/
 @media (max-width:870px)

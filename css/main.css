@@ -90,7 +90,7 @@ body {
 
 /******+++++++++++++++++++++++HEADER***++++++++++++++++++***/
 * {
-  /*outline: 1px solid rgba(0,255,0,0.3);*/ }
+  /*outline: 1px solid rgba(0,255,0,0.3)*/ }
 
 .navbar-gr {
   margin-top: 13px; }
@@ -233,15 +233,18 @@ section {
   background-color: #cd669a; }
 
 /******+++++++++++++++++++++++PROJECTS***++++++++++++++++++***/
+.-projects h2 {
+  margin: 60px 0 30px 0; }
+
 .img_projects {
-  width: 65%;
+  width: 60%;
   margin-top: 20px 0;
   position: relative;
   margin: 15px auto;
   box-shadow: 3px solid rgba(0, 0, 0, 0.3); }
   .img_projects img {
-    opacity: 0.7;
-    filter: alpha(opacity=80);
+    /*opacity: 0.7;
+    filter: alpha(opacity=80);*/
     position: relative; }
 
 .info_enlace {
@@ -270,16 +273,16 @@ section {
   opacity: 1; }
 
 ._projects_total {
-  background: #4c4c96; }
+  background: rgba(76, 76, 150, 0.7); }
 
-.linea_projects {
-  width: 50%;
-  border: 2px solid rgba(0, 220, 183, 0.7); }
-
+/*.linea_projects{
+   width: 50%;
+    border: 2px solid $color_contraste;
+}*/
 .layer img {
   transition: box-shadow 2s, transform 250ms, filter 250ms ease-in-out;
-  opacity: 0.7;
-  filter: alpha(opacity=80); }
+  /*opacity: 0.7;
+  filter: alpha(opacity=80);*/ }
 
 .layer img:hover {
   transform: scale(1.05);
@@ -290,9 +293,12 @@ section {
   margin: auto; }
   .-contact .contact-icon {
     margin: 30px 0; }
+    .-contact .contact-icon p:nth-child(1) {
+      margin: 40px 0 50px 0; }
     .-contact .contact-icon i {
       font-size: 65px;
-      color: rgba(0, 220, 183, 0.7); }
+      color: rgba(0, 220, 183, 0.7);
+      padding: 10px; }
     .-contact .contact-icon i:hover {
       color: #fff; }
     .-contact .contact-icon p {
@@ -303,6 +309,8 @@ section {
     font-family: "Abril Fatface";
     font-style: italic;
     letter-spacing: 1.5; }
+  .-contact button {
+    margin: 40px 0; }
 
 /******+++++++++++++++++++++++QUERIES***++++++++++++++++++***/
 @media (max-width: 870px) {
