@@ -10,6 +10,9 @@ function init()
     $('#btn_skills').click(onClickSkills);
     $('#btn_project').click(onClickProjects);
     $('#btn_contact_me').click(onClickContactMe);
+    $('.navbar-collapse ul li a').click(function() {
+        $('.navbar-toggle:visible').click();
+    });
     
     
 }
